@@ -1,0 +1,25 @@
+1. judul algoritma
+    > heading / paragraf / yh lainya
+    > menghitung luas dan keliling lingkaran
+2. inputan menghitung
+    
+
+menghitung luas dan keliling lingkaran dan berrikan psudocode
+
+
+
+
+
+psudocode 
+//masukan jadri jari lingkaran
+input: "masukan jari jari lingkaran
+
+//menghitung luas lingkaran
+luas <- 3.14 * radius * radius
+
+//menghitung keliling lingkaran
+keliling <- 2 * 3.14 * radius
+
+//hasil yang di keluarkan
+output "luas lingkaran adalah" + luas
+output "luas keliling adalah" + keliling

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan</title>
+</head>
+<body>
+    <label>pesan: </label>
+    <input type="text" id="inputtext"><br>
+    <label>berapa kali: </label>
+    <input type="text" id="loopnumber"><br>
+    <button type="button" onclick="cetak()">cetak</button>
+    <ol id="output">
+    </ol>
+
+    <script>
+        // const nama_variabel= document.getElementById("nama_variabel")
+        let inputtext = document.getElementById("inputtext");
+        let loopnumber = document.getElementById("loopnumber");
+
+        function cetak(){
+            // code loop
+            let element = "";
+            for (let i = 0; i < loopnumber.value; i++) {
+                element +=  "<li>" +  inputtext.value + "</li>"; 
+            }
+            console.log(element)
+            document.getElementById("output").innerHTML = element;
+        }
+    </script>
+</body>
+</html>

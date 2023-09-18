@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aris krisnanto</title>
+</head>
+<body>
+    <h1>menghitung luas dan keliling lingkungan</h1>
+<pre>
+// menghitung luas
+deklarsi jari jari
+memasukan nilai jari - jari
+menghitung luas 3.14 * jari * jari
+hasil luas
+
+// menghitung keliling
+memasukan nilai jari jari
+menghitung keliling 2 * 3.14 * jari
+hasil keliling
+</pre>
+<br>
+<br>
+<pre>
+psudocode 
+//masukan jadri jari lingkaran
+input: "masukan jari jari lingkaran
+
+//menghitung luas lingkaran 
+luas = 3.14 * radius * radius
+
+//menghitung keliling lingkaran 
+keliling = 2 * 3.14 * radius
+
+//hasil yang di keluarkan
+output "luas lingkaran adalah" + luas
+output "luas keliling adalah" + keliling
+</pre>
+
+<label for="">radius</label>
+<input type="number" id="readius">
+<button type="button" onclick="submit()">hiitung</button>
+
+<script>
+    function submit() {
+        // deklarasi untuk nilai phi
+        let phi = 3.14;
+        // input jadi jari lingkaran
+        
+        // let radius = prompt("Masukkan jari-jari lingkaran: ")
+        let radius = document.getElementById("readius").value;
+        let luas = phi * radius * radius;
+        let keliling = 2 * phi * radius;
+        alert(`luas lingkaran adalah ${luas}, \nkeliling lingkaran adalah ${keliling}`)
+    }
+</script>
+</body>
+</html>
